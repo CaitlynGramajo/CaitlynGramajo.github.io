@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Hello 
 
-## [HOME](https://caitlyngramajo.github.io/) | [satellite](https://caitlyngramajo.github.io/satellite)
+## [HOME](https://caitlyngramajo.github.io/) | [CV](https://caitlyngramajo.github.io/CV) | [Satellite](https://caitlyngramajo.github.io/Projects/satellite/Final_Project.html)  | [Data](https://caitlyngramajo.github.io/Data/) | [Media](https://caitlyngramajo.github.io/media/) 
 
 ```{r, echo = FALSE}
 knitr::include_graphics("./media/welcometochaos (1).png")
