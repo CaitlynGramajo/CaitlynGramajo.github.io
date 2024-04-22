@@ -28,7 +28,7 @@ The data I am using is from https://www.ucsusa.org/resources/satellite-database
 
 ## Method
 
-I made this interactive map in Rstudio using a library I had never used before rgl which is a 3d modeling library> I also made a function that coverts a satellites longitude in degrees, perigee in kilometers, apogee in kilometers, eccentricity, inclination in degrees, and period in minutes in coordinates of the form (x,y,z) that could then be plotted in a 3D space.
+I made this interactive map in Rstudio using a library I had never used before rgl which is a 3d modeling library. I also made a function that coverts a satellites longitude in degrees, perigee in kilometers, apogee in kilometers, eccentricity, inclination in degrees, and period in minutes in coordinates of the form (x,y,z) that could then be plotted in a 3D space.
 
 ## The Plot
 
@@ -153,7 +153,7 @@ satellite_positions <- calculate_satellite_positions(
 ## Plotting ####
 
 # Create a 3D plot window
-open3d()
+#open3d()
 
 # Create a 3D sphere representing the Earth
 rgl::spheres3d(0, 0, 0, radius = 6371, color = "blue")
